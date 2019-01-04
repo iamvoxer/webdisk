@@ -1,0 +1,41 @@
+[
+  {
+    "id": "admin",
+    "desc": "管理员",
+    "isM": false,
+    "roles": [
+      {
+        "folder":"项目管理",
+        "role":"1111",
+        "key":"LTA11111111111Wf::NiYJmJ91111111111ljrKU9vtUZ::efvideobucketo001::oss-cn-hangzhou.aliyuncs.com::qerdeobuce1.oss-cn-hangzhou.aliyuncs.com"
+      },
+      {
+        "folder":"常用软件",
+        "role":"1111",
+        "key":"LTA11111111111Wf::NiYJmJ91111111111ljrKU9vtUZ::efvideobucketo001::oss-cn-hangzhou.aliyuncs.com::qerdeobuce1.oss-cn-hangzhou.aliyuncs.com"
+      },
+      {
+        "folder":"临时数据",
+        "role":"1111",
+        "key":"LTA11111111111Wf::NiYJmJ91111111111ljrKU9vtUZ::efvideobucketo001::oss-cn-hangzhou.aliyuncs.com::qerdeobuce1.oss-cn-hangzhou.aliyuncs.com"
+      }
+    ]
+  },
+  {
+    "id": "developer",
+    "desc": "开发",
+    "isM": true,
+    "roles": [
+      {
+        "folder":"项目管理",
+        "role":"0001",
+        "key":"LTA11111111111Wf::NiYJmJ91111111111ljrKU9vtUZ::efvideobucketo001::oss-cn-hangzhou.aliyuncs.com::qerdeobuce1.oss-cn-hangzhou.aliyuncs.com"
+      },
+      {
+        "folder":"常用软件",
+        "role":"1011",
+        "key":"LTA11111111111Wf::NiYJmJ91111111111ljrKU9vtUZ::efvideobucketo001::oss-cn-hangzhou.aliyuncs.com::qerdeobuce1.oss-cn-hangzhou.aliyuncs.com"
+      }
+    ]
+  }
+]

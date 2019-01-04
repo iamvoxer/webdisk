@@ -1,0 +1,32 @@
+buildscript {
+    ext {
+        springBootVersion = '2.0.4.RELEASE'
+    }
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'org.springframework.boot'
+apply plugin: 'io.spring.dependency-management'
+
+group = 'd1.project.docsmgr'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+    maven{ url 'http://code.z012.com:8081/repository/d1-java/'}//我们的私有maven库
+}
+
+
+dependencies {
+    implementation('org.springframework.boot:spring-boot-starter-web')
+    compile('d1.framework:util:1.0.11')
+    testImplementation('org.springframework.boot:spring-boot-starter-test')
+}
